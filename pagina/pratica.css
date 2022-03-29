@@ -1,0 +1,94 @@
+*{  
+    box-sizing: border-box;
+     margin: 0;}
+
+body{
+    font: normal 20px Arial, verdana, serif;
+    background-color: rgb(0, 0, 0);
+    background: linear-gradient(255,255);
+    background-size: cover;
+    background-attachment: fixed;
+}   
+header{ 
+        background-color: black;
+        height: 200px;
+        border: 1px dashed rgb(0, 0, 0);
+        width: 100;
+        background-image: url(../pagina/IMG/simbolo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+h1{
+    margin: 10px;
+    height: 100px;
+    text-align: center;
+    color:rgb(255, 0, 0);
+}
+div#cabeçalho >h2{
+    color: red;
+    text-align: center;
+    width: 1300px;
+    height: 120px;
+    margin: 1% auto;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 15px;
+    
+}
+h3{
+     text-align: center;
+     height: 70px;
+     color: rgb(255, 0, 0);
+     text-indent: 40px;
+}
+
+div#corpo {
+    width: 1300px;
+    height: 10000px;
+    margin: 1% auto;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 15px;
+}
+div#trailer{
+    text-align: center;
+    width: 500px;
+    height: 320px;
+    margin: -3% auto;
+    padding: 12px;
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 15px;
+}
+p{
+    max-width: auto;
+    height: auto;
+    text-align:justify;
+    color: rgb(255, 0, 0);
+    text-indent: 40px;
+}  
+div#charada{
+    text-align: center;
+    color: red;
+    height: 100px;
+    margin: 40px;
+    padding: 12px;
+    border-radius: 15PX;
+    border: 1px solid rgb(245, 0, 0);
+
+}
+
+div#imgcharada{
+    background-image: url(https://i.pinimg.com/236x/5c/38/25/5c3825fc38bbeac6da8ad405efd16dc1.jpg);
+    width: 500px;
+}
+
+
+
+
+
+
+ 
+
+
+
