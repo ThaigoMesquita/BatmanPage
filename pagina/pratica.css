@@ -77,18 +77,52 @@ div#charada{
     border: 1px solid rgb(245, 0, 0);
 
 }
+.container{
+    justify-content: space-around;
+}
 
-div#imgcharada{
-    background-image: url(https://i.pinimg.com/236x/5c/38/25/5c3825fc38bbeac6da8ad405efd16dc1.jpg);
+div#texto{
     width: 500px;
+    text-align: center;
+    height: auto;
+    margin-top: 20px;
+}
+div#batman{
+    text-align: center;
+    color: red;
+     margin-top: 20px;
+    margin: 40px;
+    padding: 12px;
+    border-radius: 15PX;
+    border: 2px solid rgb(245, 0, 0);
+
+}
+div#texto2{
+    color: red;
+    width: 500px;
+    text-align: center;
+    height: auto;
+    margin-top: 20px;
+}
+
+div#bruce{
+    text-align: center;
+    color: red;
+    height: 100px;
+    margin: 40px;
+
+}
+
+div#vingaça{
+    text-align: center;
+    color: red;
+    height: 200px;
+    margin: 50px auto ;
 }
 
 
 
 
-
-
- 
 
 
 
