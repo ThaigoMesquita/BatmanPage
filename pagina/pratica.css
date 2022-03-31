@@ -6,8 +6,8 @@ body{
     font: normal 20px Arial, verdana, serif;
     background-color: rgb(0, 0, 0);
     background: linear-gradient(255,255);
-    background-size: cover;
     background-attachment: fixed;
+    max-width: auto;
 }   
 header{ 
         background-color: black;
@@ -24,13 +24,22 @@ h1{
     height: 100px;
     text-align: center;
     color:rgb(255, 0, 0);
+
+}
+h2{
+    margin: 10px;
+    height: 90px;
+    text-align: center;
+    color:rgb(255, 0, 0);
+
+
 }
 div#cabeçalho >h2{
     color: red;
     text-align: center;
     width: 1300px;
     height: 120px;
-    margin: 1% auto;
+    margin: auto;
     padding: 10px;
     border: 1px solid red;
     border-radius: 15px;
@@ -41,11 +50,17 @@ h3{
      height: 70px;
      color: rgb(255, 0, 0);
      text-indent: 40px;
-}
 
+}
+h4{
+    text-align: center;
+    height: 100px;
+    color: rgb(255, 0, 0);
+    text-indent: 40px;
+}
 div#corpo {
     width: 1300px;
-    height: 10000px;
+    height: 10500px;
     margin: 1% auto;
     padding: 10px;
     border: 1px solid red;
@@ -90,9 +105,10 @@ div#texto{
 div#batman{
     text-align: center;
     color: red;
-     margin-top: 20px;
+    height: 70px;
+    margin-top: 20px;
     margin: 40px;
-    padding: 12px;
+    padding: 5px;
     border-radius: 15PX;
     border: 2px solid rgb(245, 0, 0);
 
@@ -107,22 +123,182 @@ div#texto2{
 
 div#bruce{
     text-align: center;
+    align-content: center;
     color: red;
-    height: 100px;
+    height: 30px;
     margin: 40px;
 
 }
 
-div#vingaça{
+div#vingança{
     text-align: center;
     color: red;
-    height: 200px;
-    margin: 50px auto ;
+    height: 30px;
+    margin: 30px;
+    
+}
+div#trailerVingança{
+    text-align: center;
+    width: 500px;
+    height: auto;
+    padding: 12px;
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 10px;
+}
+div#gata{
+   
+    text-align: center;
+    color: red;
+    height: 70px;
+    margin-top: 20px;
+    margin: 40px;
+    padding: 5px;
+    border-radius: 15PX;
+    border: 2px solid rgb(245, 0, 0);
+}
+div#mulhergato{
+    color: red;
+    width: 500px;
+    text-align: center;
+    height: auto;
+    margin-top: 20px;
+
+}
+div#mulhergato2{
+    color: red;
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+    margin: 50px;
+}
+div#morcegoGata{
+    text-align: center;
+    color: red;
+    height: 70px;
+    margin-top: 20px;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 15PX;
+    border: 2px solid rgb(245, 0, 0);
+
+}
+div#pinguim{
+    text-align: center;
+    color: red;
+    height: 70px;
+    margin-top: 20px;
+    margin: 40px;
+    padding: 5px;
+    border-radius: 15PX;
+    border: 2px solid rgb(245, 0, 0);
+}
+div#Coringa{
+    text-align: center;
+    color: red;
+    height: 140px;
+    margin-top: 20px;
+    margin: 40px;
+    padding: 5px;
+    border-radius: 15PX;
+    border: 2px solid rgb(245, 0, 0);
+
+
+}
+div#cena{
+    text-align: center;
+    color: red;
+    height: 40px;
+    margin: 50px;
 }
 
+div#cenacoringa{
+    text-align: center;
+    width: 490px;
+    height: 300;
+    padding: 12px;
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 10px;
+}
+div#HQS{
+    text-align: center;
+    color: red;
+    height: 40px;
+    margin: 50px;
+}
 
+div#nomehq1{
+    text-align: center;
+    color: red;
+    height: 40px;
+    margin: 50px;
+    margin-top: 200px;
+}
+div#hq1{
+    text-align: center;
+    display: flex;
+    width: 800px;
+    margin-left: -130px;
+    margin-top: 40px;
 
+}
 
+div#hq1texto{
+    text-align: justify;
+    width: 1100px;
+    height: 400px;
+    margin: 50px 40px auto;
+}
+
+div#nomehq2{
+    text-align: center;
+    color: red;
+    height: 40px;
+    margin: 50px;
+    margin-top: 110px;
+}
+div#hq2{
+    text-align: center;
+    display: flex;
+    width: 800px;
+    margin-left: -130px;
+    margin-top: 40px;
+}
+
+div#hq2texto{
+    text-align: justify;
+    width: 1100px;
+    height: 400px;
+    margin: 50px 40px auto;
+
+}
+
+div#nomehq3{
+    text-align: center;
+    color: red;
+    height: 40px;
+    margin: 50px;
+    margin-top: 110px;
+}
+div#hq3{
+    text-align: center;
+    display: flex;
+    width: 800px;
+    margin-left: -150px;
+    margin-top: 40px;
+    
+}
+div#hq3texto{
+    text-align: justify;
+    width: 1100px;
+    height: 400px;
+    margin: 50px 40px auto;
+
+}
+footer{
+    margin: 30px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
 
 
 
